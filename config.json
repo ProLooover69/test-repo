@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "server-name": {
+      "command": "path/to/server",
+      "args": [
+        "arg1",
+        "arg2"
+      ],
+      "env": {
+        "VARIABLE": "value"
+      },
+      "ip": "192.168.1.100"
+    },
+    "GitHub": {
+      "command": "docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server",
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "3C16-DC8B"
+      },
+      "args": []
+    }
+  }
+}
